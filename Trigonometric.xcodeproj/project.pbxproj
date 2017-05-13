@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D25A61401EC6B1740092B68B /* cTriangleDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = D25A613F1EC6B1740092B68B /* cTriangleDrawing.m */; };
 		D2D58C2C1EC5A90700B63E72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D58C2B1EC5A90700B63E72 /* AppDelegate.m */; };
 		D2D58C2F1EC5A90700B63E72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D58C2E1EC5A90700B63E72 /* main.m */; };
 		D2D58C321EC5A90700B63E72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D58C311EC5A90700B63E72 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D25A613E1EC6B1740092B68B /* cTriangleDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cTriangleDrawing.h; sourceTree = "<group>"; };
+		D25A613F1EC6B1740092B68B /* cTriangleDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cTriangleDrawing.m; sourceTree = "<group>"; };
 		D2D58C271EC5A90700B63E72 /* Trigonometric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trigonometric.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D58C2A1EC5A90700B63E72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D2D58C2B1EC5A90700B63E72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,6 +67,8 @@
 				D2D58C351EC5A90700B63E72 /* Main.storyboard */,
 				D2D58C381EC5A90700B63E72 /* Info.plist */,
 				D2D58C2D1EC5A90700B63E72 /* Supporting Files */,
+				D25A613E1EC6B1740092B68B /* cTriangleDrawing.h */,
+				D25A613F1EC6B1740092B68B /* cTriangleDrawing.m */,
 			);
 			path = Trigonometric;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			files = (
 				D2D58C321EC5A90700B63E72 /* ViewController.m in Sources */,
 				D2D58C2F1EC5A90700B63E72 /* main.m in Sources */,
+				D25A61401EC6B1740092B68B /* cTriangleDrawing.m in Sources */,
 				D2D58C2C1EC5A90700B63E72 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +307,7 @@
 				D2D58C3D1EC5A90700B63E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
