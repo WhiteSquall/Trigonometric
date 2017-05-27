@@ -5,9 +5,9 @@
 
 @implementation WSTrigonometric
 
-- (double) UpdateAngleA :(double) DistanceA: (double) DistanceB
+- (double) UpdateAngleA :(double) tDistanceA :(double) tDistanceB
 {
-    double AngleA = atan(DistanceB / DistanceA) * 180 / PI;
+    double AngleA = atan(tDistanceB / tDistanceA) * 180 / PI;
     
     return AngleA;
 }

@@ -2,6 +2,6 @@
 
 @interface WSTrigonometric : NSObject
 
-- (double) UpdateAngleA :(double) oDistanceA: (double) oDistanceB;
+- (double) UpdateAngleA :(double) tDistanceA :(double) tDistanceB;
 
 @end
